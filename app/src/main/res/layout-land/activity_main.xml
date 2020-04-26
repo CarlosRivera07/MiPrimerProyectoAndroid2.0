@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Marciano"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="256dp"
+        android:layout_height="77dp"
+        android:text="@string/titulo_app"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/transparent"
+        android:textColorLink="@android:color/transparent"
+        android:textCursorDrawable="@android:color/transparent"
+        android:textSize="60sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="81dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:text="@string/boton_app"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textCursorDrawable="@android:color/background_light"
+        android:textIsSelectable="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="420dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Marciano"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:text="@string/titulo_app"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/transparent"
+        android:textColorLink="@android:color/transparent"
+        android:textCursorDrawable="@android:color/transparent"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="113dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:text="@string/boton_app"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textCursorDrawable="@android:color/background_light"
+        android:textIsSelectable="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
