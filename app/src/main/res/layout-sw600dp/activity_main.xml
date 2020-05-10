@@ -4,13 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Marciano"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/Marciano" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="229dp"
-        android:layout_height="82dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginRight="184dp"
         android:text="@string/titulo_app"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
@@ -19,15 +35,16 @@
         android:textCursorDrawable="@android:color/transparent"
         android:textSize="50sp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="381dp"
-        tools:layout_editor_absoluteY="101dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/button5"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="138dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         android:background="@android:color/transparent"
         android:text="@string/boton_app"
         android:textColor="@android:color/background_light"
@@ -36,8 +53,12 @@
         android:textColorLink="@android:color/background_light"
         android:textCursorDrawable="@android:color/background_light"
         android:textIsSelectable="false"
+        android:textSize="30sp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="437dp"
-        tools:layout_editor_absoluteY="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
